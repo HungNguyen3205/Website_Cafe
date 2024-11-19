@@ -1,0 +1,55 @@
+.menu {
+    background-color: rgba(247, 247, 247, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.menu h1 {
+    color: #5D4037;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-item {
+
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    width: 200px; /* Hoặc điều chỉnh theo ý bạn */
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu-image {
+    width: 100%;
+    height: 150px; /* Hoặc điều chỉnh theo ý bạn */
+    object-fit: cover;
+}
+
+.menu-details {
+    padding: 10px;
+}
+
+.menu-details h2 {
+    margin: 10px 0;
+    color: #5D4037;
+}
+
+.menu-details p {
+    color: #7B5B4B;
+    font-weight: bold;
+}

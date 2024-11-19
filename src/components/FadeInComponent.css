@@ -1,0 +1,22 @@
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .fade-in {
+    animation: fadeIn 2s ease-in;
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+    color: #3E2723; /* Màu socola đậm */
+  }
+  
+  .fade-in h1 {
+    margin: 0;
+    color: #4E342E; /* Màu socola nhạt hơn */
+  }
+  
+  .fade-in p {
+    font-size: 18px;
+    color: #6D4C41; /* Màu socola nhạt hơn */
+  }
